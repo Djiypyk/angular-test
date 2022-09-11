@@ -9,7 +9,7 @@ import {ProductsService} from "src/app/services/products.service";
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  title = 'angular new app';
+  title = 'Fake shop';
 
   // products: IProduct[] = []
   products$: Observable<IProduct[]>
